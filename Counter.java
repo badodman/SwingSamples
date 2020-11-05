@@ -86,7 +86,7 @@ public class Counter {
 		 * Method called when the button is pressed.
 		 */
 		public void actionPerformed(ActionEvent e) {
-			int value = Integer.parseInt(valueField.getText());
+			long value = Integer.parseInt(valueField.getText());
 			valueField.setText(String.valueOf(value + 1));
 		}
 	}
